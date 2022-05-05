@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    form{
+      font-family: "DejaVu Sans Mono";
+      text-align: center;
+      background-color: #00ffc4;
+      border: 5px;
+      margin: 5px;
+
+    }
+    h2{
+      text-align: center;
+      background: tomato;
+
+    }
+  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>forms</title>
+</head>
+<body style="background-color: darkgray">
+<h2>registration form</h2>
+
+<form action="lists.html">
+  <label for="fname">firstname</label>
+  <input type="text"id="fname" placeholder="enter first name"><br>
+  <label for="lname">last name</label>
+  <input type="text"id="lname" placeholder="enter last name"><br>
+  <label for="dor">date of registration</label>
+  <input type="date"id="dor"><br>
+  <label for="upload image">upload image</label>
+  <input type="file" id="upload image"><br>
+  <label for="course">course taken</label>
+  <select name="course" id="course">
+    <option value="fullstack software">fullstack software</option>
+    <option value="python">python</option>
+    <option value="javascript">javascript</option>
+    <option value="android">android</option>
+  </select><br>
+  gender
+  <label for="male">male</label>
+  <input type="radio"id="male" name="gender">
+  <label for="female">female</label>
+  <input type="radio"id="female" name="gender"><br>
+  <label for="email">mail</label>
+  <input type="email"id="email" placeholder="enter email address"><br>
+  <label for="pass">password</label>
+  <input type="password"id="pass" placeholder="input password"><br>
+  <input type="submit" value="login here">
+  <button type="button"onclick="alert('this is not for underage kids')">tap here</button>
+
+</form>
+<h1 style="font-family: 'Liberation Sans Narrow'">arrogance</h1>
+</body>
+</html>
